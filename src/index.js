@@ -4,13 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./index.css";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route,Switch } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const basename = window.location.hostname === "localhost" ? "" : "/store";
 
 root.render(
   <BrowserRouter basename="{basename}" >
+    <Switch>
     <App />
+    </Switch>
   </BrowserRouter>
 );
