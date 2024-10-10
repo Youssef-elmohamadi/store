@@ -11,8 +11,7 @@ const basename = window.location.hostname === "localhost" ? "" : "/store";
 
 root.render(
   <BrowserRouter basename={basename} >
-    <Routes>
+
     <App />
-    </Routes>
   </BrowserRouter>
 );
