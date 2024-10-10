@@ -1,6 +1,7 @@
 import "./Product.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 export default function Proudct(props) {
+  const navigate = useNavigate();
   return (
     <>
       <div className="col-md-6 col-sm-12 col-lg-4">
