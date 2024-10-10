@@ -1,0 +1,17 @@
+.card img {
+  height: 400px;
+  width: 100%;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 70px;
+}
+
+.card-title {
+  height: 90px;
+}
